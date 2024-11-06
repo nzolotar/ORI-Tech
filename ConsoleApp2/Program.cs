@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ConsoleApp2
 {
@@ -8,7 +9,14 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine(RemoveDuplicates("IXYZZI")); // IXYZ
+            Console.WriteLine("1:" + RemoveDuplicates("IXYZZI")); // IXYZ
+            Console.WriteLine("2:" + MostEfficient("IXYZZI")); // IXYZ
+            Console.Read();
+        }
+
+        private static string MostEfficient(string word) {
+            HashSet<char> uniqueChars = new HashSet<char>(word);
+            return new string(uniqueChars.ToArray());
         }
 
         private static string RemoveDuplicates(string word)
@@ -37,7 +45,7 @@ namespace ConsoleApp2
                     processedCharacters.Add(character);
                 }
             }
-            return result.ToString();
+            return string.Concat(result);
         }
     }
 }
