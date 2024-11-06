@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.32929.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp.csproj", "{2CE74E8D-5BB5-44E4-BD1F-CA9EF9AB39D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "..\ConsoleApp2\ConsoleApp2.csproj", "{32B89E0C-8755-44A6-9D69-A12386D43254}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp_RemoveDuplicatesProblem", "..\ConsoleApp2\ConsoleApp_RemoveDuplicatesProblem.csproj", "{32B89E0C-8755-44A6-9D69-A12386D43254}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp_StackProblem_REDONE", "..\ConsoleApp_StackProblem\ConsoleApp_StackProblem_REDONE.csproj", "{4B36BA8E-A42B-49F5-B196-95C3DAA2657D}"
 EndProject
