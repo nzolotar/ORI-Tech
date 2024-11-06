@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp_StackProblem_RED
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp_StackProblem_TESTS", "..\ConsoleApp_StackProblem_TESTS\ConsoleApp_StackProblem_TESTS.csproj", "{FDD0E98B-79E5-47BE-B609-8F22200B1C98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp_RemoveDuplicatesProblem_TESTS", "..\ConsoleApp_RemoveDuplicatesProblem_TESTS\ConsoleApp_RemoveDuplicatesProblem_TESTS.csproj", "{80F79210-FE89-449F-8E93-7FE3756538C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{FDD0E98B-79E5-47BE-B609-8F22200B1C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDD0E98B-79E5-47BE-B609-8F22200B1C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDD0E98B-79E5-47BE-B609-8F22200B1C98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F79210-FE89-449F-8E93-7FE3756538C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F79210-FE89-449F-8E93-7FE3756538C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F79210-FE89-449F-8E93-7FE3756538C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F79210-FE89-449F-8E93-7FE3756538C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

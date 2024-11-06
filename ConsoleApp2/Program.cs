@@ -18,12 +18,12 @@ namespace ConsoleApp2
         }
 
         //Using HashSet (maintains order of first occurrence)
-        private static string MostEfficient(string word) {
+        public static string MostEfficient(string word) {
             HashSet<char> uniqueChars = new HashSet<char>(word);
             return new string(uniqueChars.ToArray());
         }
         //Using LINQ (shorter but might be less performant)
-        private static string RemoveDuplicatesLinq(string input)
+        public static string RemoveDuplicatesLinq(string input)
         {
             if (string.IsNullOrEmpty(input)) return input;
             return new string(input.Distinct().ToArray());
@@ -51,7 +51,7 @@ namespace ConsoleApp2
 
             return result.ToString();
         }
-        private static string RemoveDuplicates(string word)
+        public static string RemoveDuplicates(string word)
         {
             //verify if string is not blank 
             if (string.IsNullOrWhiteSpace(word))
